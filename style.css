@@ -1,0 +1,181 @@
+/*
+Theme Name: Seattle Market
+Theme URI: http://spencerechon.com/seattle-market
+Description: A theme for Seattle Market LLC
+Author: Spencer Echon
+Author URI: http://spencerechon.com
+Version: 1.0
+Tags:
+License:
+License URI:
+General comments (optional).
+*/
+
+@font-face {
+    font-family: 'grand hotel';
+    src: url('fonts/GrandHotel-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'oswald';
+    src: url('Oswald-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body { 
+    padding: 0px 0px 0px 0px;
+}
+
+p {
+    line-height: 1.6;
+}
+ 
+/* Start Nav */
+.navbar-edit {
+    color: #404041 !important;
+    line-height: 140% !important;
+    font-family: 'Oswald', 'Helvetica Neue', 'Helvetica' !important;
+    font-size: 24px !important;
+}
+
+.navbar-edit span {
+    font-family: 'grand hotel', 'Helvetica Neue', 'Helvetica' !important;
+    font-size: 28px !important;
+    color: #27A9E1 !important;
+    margin-left: 0 !important;
+    text-transform: none !important;
+    letter-spacing: 0 !important;
+    position: relative !important;
+    top: -1px !important;
+}
+
+/* Start Parallax */
+.jumbotron {
+    background-color:#ffffff !important;
+}
+
+.full-width {
+    width: 100% !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.banner-pad {
+    padding-top: 200px !important;
+    padding-bottom: 200px!important; 
+}
+
+.divider-pad {
+    padding-top: 100px !important;
+    padding-bottom: 100px!important; 
+}
+
+.bg-1 {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1) ), url('http://spencerechon.com/seattle-market/wp-content/themes/seattle_market/images/bg-1.jpg') no-repeat center center fixed;
+    color:#fff;
+    background-size:cover;
+}
+
+.bg-2 {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1) ), url('http://spencerechon.com/seattle-market/wp-content/themes/seattle_market/images/bg-2.jpg') no-repeat center center fixed;
+    color:#fff;
+    background-size:cover;
+}
+
+
+/* Start of content */
+.price {
+    font-size: 60px;
+    line-height: 100%;
+    letter-spacing: -3px;
+    font-family: 'Oswald', 'Hekvetuca Neue' , 'Helvetica';
+}
+
+.shipping {
+    font-family: 'grand hotel', 'Helvetica Neue', 'Helvetica' !important;
+    font-size: 24px !important;
+    color: #27A9E1 !important;
+    margin-left: 0 !important;
+    text-transform: none !important;
+    letter-spacing: 0 !important;
+    position: relative !important;
+    top: -1px !important;
+}
+
+.stripe-button-el span {
+    background-image:linear-gradient(#4caf50,#009688 85%,#09688) !important;
+}
+
+.anchor {
+    display: block;
+    position: relative;
+    top: -50px;
+    visibility: hidden;
+}
+
+
+/* Start of Social */
+.social-logo {
+    height: 80px;
+    width: 80px;
+    padding: 10px;
+    box-shadow: none;
+}
+
+#social ul {
+    padding: 0;
+}
+
+#social ul li{
+    list-style:none;
+    display: inline;
+}
+
+#social ul li a:hover, #social ul li a:focus {
+	opacity: 0.5;
+}
+
+
+/* Form adjustments */
+textarea, input {
+	width: 90%;
+}
+
+
+/* Start Nav Media Queries */
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 1100px) {
+
+}
+
+@media screen and (max-width: 1000px) {
+
+}
+
+@media screen and (max-width: 800px) {
+
+}
+
+@media screen and (max-width: 600px) {
+    
+}
+@media only screen and (max-width : 480px) {
+
+}
+@media only screen and (max-width : 320px) {
+
+}
